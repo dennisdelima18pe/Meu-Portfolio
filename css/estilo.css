@@ -1,0 +1,116 @@
+/*formatações gerais*/
+*{
+    margin:0px;
+   
+    padding:0px;
+}
+html,body{
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
+}
+img{
+    max-width:100%;
+    display:block;
+}
+.btn{
+    width:200px;
+    height:55px;
+    
+    font-size:1.5rem;
+    background:#5D3FED;
+    display:block;
+
+}
+header{
+    background:url("../img/intro.png");
+    background-size:cover;
+    height:100%;
+   
+}
+img{
+
+}
+h1,h2{
+    font-weight:bold;
+    text-align:center
+    
+}
+section{
+    margin-top:7.25rem;
+}
+h2{
+    color:#5D3FED;
+    font-size:3rem;
+    
+}
+button{
+    width:200px;
+    height:55px;
+    color:#fff;
+    background:#5D3FED;
+    border:none;
+    display:block;
+    margin:0 auto;
+}
+/*header*/
+nav ul li{
+    font-size:1.5rem;
+    margin-left:42px;
+}
+
+nav ul li a{
+    color:#ffff;
+}
+nav ul li a:hover {
+    color:#5D3FED;
+}
+/*intro*/
+.intro{
+    color:#fff;
+}
+.intro h1{
+    font-size:3.75rem;
+}
+.intro p{
+    font-size:1.5rem;
+}
+.intro button{
+    margin:0 auto;
+}
+/*minha historia*/
+.minha-historia p{
+    font-size:1.5rem;
+    color:#5D3FED;
+
+}
+.minha-historia button{
+    margin-top:16px;
+}
+.skill{
+    background:#FAFAFA;
+}
+/*Portfólio*/
+.projetos{
+    width:300px;
+    height:210px;
+    background:#5D3FED;
+    box-shadow:5px 10px 10px #000;
+    margin:16px;
+}
+/*footer*/
+footer{
+    background:#5D3FED;
+    margin-top:7.25rem;
+    height:116px;
+}
+footer h2{
+    color:#fff;
+}
+footer ul{
+    list-style:none;
+}
+footer ul li{
+    display:inline-block;
+    margin-left:16px;
+}
